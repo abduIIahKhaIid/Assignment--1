@@ -1,13 +1,10 @@
-let PersonName: string = "Abdullah Khalid";
-let lowerCase: string = PersonName.toLowerCase();
-console.log('Lower Case: ' + lowerCase);
-let upperCase: string = PersonName.toUpperCase();
-console.log('Upper Case: ' + upperCase);
-let words: string[] = PersonName.split(" ");
-let titlecaseName: string = "";
-for (let i = 0; i < words.length; i++) {
-  let word: string = words[i];
-  let titlecaseWord: string = word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
-  titlecaseName += titlecaseWord + " ";
-}
-console.log('Title Case: ' + titlecaseName);
+/*
+  Question#3
+  Name Cases: Store a person’s name in a variable, and then print that person’s name in lowercase, uppercase, and titlecase.
+*/
+
+let Name="Abdullah Khalid";
+console.log(`Lower Case: ${Name.toLocaleLowerCase()}`);
+console.log(`Upper Case ${Name.toUpperCase()}`);
+
+export{}

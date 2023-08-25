@@ -1,4 +1,11 @@
-let quote: string = "The greatest glory in living lies not in never falling, but in rising every time we fall.";
-let author: string = "Nelson Mandela";
+/*
+  Question#4
+Famous Quote: Find a quote from a famous person you admire. Print the quote and the name of its author. Your output should look something like the following, including the quotation marks:
 
-console.log(`"${quote}" - ${author}`);
+Albert Einstein once said, “A person who never made a mistake never tried anything new.”
+
+*/
+
+let Name="Abdullah Khalid";
+let message="once said, “A person who never made a mistake never tried anything new.”";
+console.log(Name+" "+message);
