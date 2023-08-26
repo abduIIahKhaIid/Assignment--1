@@ -7,7 +7,7 @@
 
 let friends: string[] = ['Yaseen', 'Abdullah Tahir Malik', 'Umar Tariq'];
 for (let i = 0; i < friends.length; i++) {
-    console.log(`Hello ${friends[i]}, How are you today`);
+  console.log(`Hello ${friends[i]}, How are you today`);
 }
 
-export{}
+export { }

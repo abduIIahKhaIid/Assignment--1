@@ -5,10 +5,10 @@
   such as “I would like to own a Honda motorcycle.”
 */
 
-let favoriteModeOfTransportation:string[]=['Car','Motorcycle','Flying jet'];
+let favoriteModeOfTransportation: string[] = ['Car', 'Motorcycle', 'Flying jet'];
 for (let i = 0; i < favoriteModeOfTransportation.length; i++) {
 
     console.log(`I would like to own a ${favoriteModeOfTransportation[i]}`);
 }
 
-export{}
+export { }

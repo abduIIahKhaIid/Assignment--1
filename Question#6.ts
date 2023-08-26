@@ -6,7 +6,7 @@
   the white spaces.
 */
 
-let Name:string="\t\n Abdullah Khalid \t\n";
+let Name: string = "\t\n Abdullah Khalid \t\n";
 console.log("With Whitespace");
 console.log(Name);
 
@@ -14,4 +14,4 @@ console.log(Name);
 console.log("Without Whitespace");
 console.log(Name.trim());
 
-export{}
+export { }

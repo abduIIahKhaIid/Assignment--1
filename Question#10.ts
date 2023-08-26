@@ -6,11 +6,11 @@
   describing what the program does.
 */
 
-let Number1:number=7;
-let Number2:number=8;
+let Number1: number = 7;
+let Number2: number = 8;
 //addition
 
-let addition:number=Number1+Number2;
+let addition: number = Number1 + Number2;
 
 //print the answer
 

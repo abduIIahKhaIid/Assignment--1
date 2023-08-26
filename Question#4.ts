@@ -7,7 +7,7 @@
 
 */
 
-let Name:string="Abdullah Khalid";
-let message:string="once said, “A person who never made a mistake never tried anything new.”";
-console.log(Name+" "+message);
-export{}
+let Name: string = "Abdullah Khalid";
+let message: string = "once said, “A person who never made a mistake never tried anything new.”";
+console.log(Name + " " + message);
+export { }
