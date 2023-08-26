@@ -6,7 +6,7 @@
   the white spaces.
 */
 
-let Name="\t\n Abdullah Khalid \t\n";
+let Name:string="\t\n Abdullah Khalid \t\n";
 console.log("With Whitespace");
 console.log(Name);
 
