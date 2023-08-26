@@ -10,4 +10,4 @@
   • Remove the last two names from your list, so you have an empty list. Print your list to make sure you actually have an empty list at the end of your program.
 */
 
-let guestList:string[]=[];
+let guestList:string[]=['Umar','Yaseen','Ahmed Sajid Butt', 'Muzamil', 'Abdullah Tahir Malik','Muneeb'];
