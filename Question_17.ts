@@ -10,4 +10,21 @@
   • Remove the last two names from your list, so you have an empty list. Print your list to make sure you actually have an empty list at the end of your program.
 */
 
-let guestList:string[]=['Umar','Yaseen','Ahmed Sajid Butt', 'Muzamil', 'Abdullah Tahir Malik','Muneeb'];
+let guestList: string[] = ['Umar', 'Yaseen', 'Ahmed Sajid Butt', 'Muzamil', 'Abdullah Tahir Malik', 'Muneeb'];
+
+while (guestList.length > 2) {
+  console.log(`${guestList.pop()} you’re sorry you can’t invite them to dinner`);
+}
+
+for (let i = 0; i < guestList.length; i++) {
+  console.log(`${guestList[i]} you're still invited`);
+
+}
+
+guestList.splice(0);
+
+for (let i = 0; i < guestList.length; i++) {
+  console.log(guestList[i]);
+}
+
+export { }
