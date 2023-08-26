@@ -7,6 +7,8 @@
 
 let guestList:string[]=['Yaseen','Abdullah Tahir Malik','Umar Tariq'];
 for (let i = 0; i < guestList.length; i++) {
-    const element = guestList[i];
-    
+
+    console.log(`Dear ${guestList[i]}, you are invited to dinner at my place`);
 }
+
+export{}
