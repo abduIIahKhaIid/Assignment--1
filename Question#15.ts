@@ -9,19 +9,19 @@
   • Print a second set of invitation messages, one for each person who is still in your list.
 */
 
-let guestList:string[]=['Yaseen','Muzamil','Abdullah Tahir Malik'];
+let guestList: string[] = ['Yaseen', 'Muzamil', 'Abdullah Tahir Malik'];
 for (let i = 0; i < guestList.length; i++) {
-    console.log(`Dear ${guestList[i]}, you are invited to dinner at my place`);    
+    console.log(`Dear ${guestList[i]}, you are invited to dinner at my place`);
 }
 
-console.log( `Unfotunately ${guestList[1]}, can't make it to the dinner`);
+console.log(`Unfotunately ${guestList[1]}, can't make it to the dinner`);
 
-guestList[1]='Umar';
+guestList[1] = 'Umar';
 
 
 console.log("Updated Invitation Message");
 for (let i = 0; i < guestList.length; i++) {
-    console.log(`Dear ${guestList[i]}, you are invited to dinner at my place`);    
+    console.log(`Dear ${guestList[i]}, you are invited to dinner at my place`);
 }
 
-export{}
+export { }

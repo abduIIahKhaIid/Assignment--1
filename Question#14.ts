@@ -5,10 +5,10 @@
   Then use your list to print a message to each person, inviting them to dinner.
 */
 
-let guestList:string[]=['Yaseen','Abdullah Tahir Malik','Umar Tariq'];
+let guestList: string[] = ['Yaseen', 'Abdullah Tahir Malik', 'Umar Tariq'];
 for (let i = 0; i < guestList.length; i++) {
 
     console.log(`Dear ${guestList[i]}, you are invited to dinner at my place`);
 }
 
-export{}
+export { }

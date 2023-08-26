@@ -5,7 +5,8 @@
 
   • Add one new guest to the beginning of your array.
 
-  • Add one new guest to the middle of your array. • Use append() to add one new guest to the end of your list. • Print a new set of invitation messages, one for each person in your list.
+  • Add one new guest to the middle of your array. • Use append() to add one new guest to the end of your list. 
+  • Print a new set of invitation messages, one for each person in your list.
 */
 
 let guestList: string[] = ['Yaseen', 'Muzamil', 'Abdullah Tahir Malik'];
@@ -20,5 +21,7 @@ guestList.splice((guestList.length) / 2, 0, 'Ahmed Sajid Butt'); // Insert at th
 guestList.push('Muneeb');//Insert at the end of the array
 
 for (let i = 0; i < guestList.length; i++) {
-
+    console.log(`Dear ${guestList[i]}, you are invited to dinner at my place`);
 }
+
+export { }
