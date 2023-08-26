@@ -8,3 +8,5 @@ let friends: string[] = ["Asad-ul-haq", "Muzamil", "Umar Tariq", "Abdullah Tahir
 for (let i = 0; i < friends.length; i++) {
      console.log(friends[i]);
 }
+
+export{}
