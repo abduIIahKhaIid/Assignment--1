@@ -21,7 +21,25 @@ console.log(rollNo == 20);
 console.log("Is studentName == 'Abdullah' ? I predict True.");
 console.log(studentName == 'Abdullah');
 
-console.log("Is rollNo less than 20 ? I predict true");
-console.log(rollNo < 20);
+console.log("Is rollNo < 30 ? I predict True.");
+console.log(rollNo < 30);
+
+console.log("Is studentName != 'Ali' ? I predict True.");
+console.log(studentName != 'Ali');
+
+console.log("Is car != 'subaru'? I predict False.");
+console.log(car != 'subaru');
+
+console.log("Is rollNo != 20 ? I predict False.");
+console.log(rollNo != 20);
+
+console.log("Is studentName != 'Abdullah' ? I predict False.");
+console.log(studentName != 'Abdullah');
+
+console.log("Is rollNo > 30 ? I predict False.");
+console.log(rollNo > 30);
+
+console.log("Is studentName == 'Ali' ? I predict False.");
+console.log(studentName == 'Ali');
 
 export { };
