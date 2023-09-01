@@ -4,7 +4,7 @@
   which prints the name of each magician in the array.
 */
 
-function show_magicians(magician: string[]) {
+function show_magicians(magician: string[]): void {
     for (const i of magician) {
         console.log(i);
     }
