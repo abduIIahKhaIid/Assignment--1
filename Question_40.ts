@@ -9,6 +9,19 @@
   Make at least one new function call that includes the number of tracks on an album.
 */
 
+function make_album(name: string, title: string, tracks?: number): { name: String, title: string, track?: number } {
+    const album: { name: string, title: string, tracks?: number } = {
+        name: name,
+        title: title
+    }
+    if (tracks != undefined) {
+        album.tracks = tracks;
+    }
+    return album;
+}
 
+console.log(make_album('Atif Aslam', 'Tu jaane na'));
+console.log(make_album('Taylor Swift', 'BlankSpace', 10));
+console.log(make_album('Atif Aslam', 'Tera Hua', 12));
 
 export { }
