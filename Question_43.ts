@@ -6,4 +6,22 @@
   names and one array with the Great added to each magician’s name.
 */
 
+let magician: string[] = ['Tahir', 'Ali', 'Zeeshan'];
+
+function make_great(magicians: string[]): string[] {
+    let name: string[] = [];
+    for (let i = 0; i < magicians.length; i++) {
+        name[i] = `The Great ${magicians[i]}`;
+    }
+    return name;
+}
+
+function show_magicians(magicians: string[]): void {
+    for (const i of magicians) {
+        console.log(i);
+    }
+}
+
+show_magicians(make_great(magician));
+
 export { }
